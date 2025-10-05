@@ -1,0 +1,12 @@
+# Session Tracker v1.2.0 - Python Dependencies
+
+# Core GUI Framework
+PyQt6>=6.0.0
+
+# Charts (Optional - application will work without it)
+PyQt6-Charts>=6.0.0
+
+# Multimedia support for sound alerts
+
+# PDF Report Generation
+reportlab>=3.6.0
