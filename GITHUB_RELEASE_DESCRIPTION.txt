@@ -1,0 +1,209 @@
+================================================================================
+GITHUB RELEASE TITLE
+================================================================================
+
+Session Tracker v1.2.0 - Countdown Timer & Enhanced Alerts
+
+================================================================================
+GITHUB RELEASE TAG
+================================================================================
+
+v1.2.0
+
+================================================================================
+GITHUB RELEASE DESCRIPTION (Copy everything below this line)
+================================================================================
+
+## 🎉 Session Tracker v1.2.0
+
+Professional desktop session tracking with advanced countdown timer and intelligent alert system.
+
+---
+
+### ⭐ What's New
+
+#### 🕐 Advanced Countdown Timer
+- **Millisecond Precision**: Real-time countdown with `HH:MM:SS.mmm` format
+- **Customizable Duration**: Set timers up to 23 hours, 59 minutes, 59 seconds
+- **Visual Display**: Clean, centered countdown with professional styling
+- **Smooth Updates**: 50ms refresh rate for seamless countdown experience
+
+#### 🔔 Intelligent Alert System
+- **Sound Notifications**: WAV audio playback with 3x repeat on timer expiration
+- **Visual Alerts**: Clear pop-up dialogs when countdown completes
+- **System Tray Notifications**: Unobtrusive desktop notifications
+- **Auto-Stop Sessions**: Automatically ends session when timer reaches zero
+
+#### ⚡ Enhanced Session Management
+- Timer properly integrates with pause/resume functionality
+- Microsecond-level accuracy for precise time tracking
+- Timer configuration locks during active sessions
+- Smart validation prevents invalid timer settings
+
+---
+
+### 📦 Installation
+
+#### Quick Start
+```bash
+# Extract the archive
+unzip session-tracker-v1.2.0.zip
+cd release-v1.2.0
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run application
+python session_tracker.py
+```
+
+#### Requirements
+- **Python**: 3.8 or higher
+- **PyQt6**: GUI framework (required)
+- **PyQt6-Multimedia**: Sound support (required)
+- **reportlab**: PDF generation (required)
+- **PyQt6-Charts**: Charts functionality (optional)
+
+---
+
+### 🎯 Core Features
+
+- ✅ **Session Tracking**: Start, pause, resume, and stop work sessions
+- ✅ **Timer System**: Countdown timer with millisecond precision and alerts
+- ✅ **Calendar View**: Color-coded calendar showing session activity
+- ✅ **Statistics**: Comprehensive analytics and session insights
+- ✅ **Charts**: Interactive pie and bar charts (requires PyQt6-Charts)
+- ✅ **PDF Reports**: Generate weekly and monthly session reports
+- ✅ **CSV Export/Import**: Easy data portability with backup system
+- ✅ **System Tray**: Minimize to tray with quick access controls
+- ✅ **Keyboard Shortcuts**:
+  - `Ctrl+Shift+S` - Start Session
+  - `Ctrl+Shift+T` - Stop Session
+  - `Ctrl+Shift+P` - Pause/Resume
+  - `Ctrl+Shift+E` - Export Data
+
+---
+
+### 📋 Changelog
+
+#### Added
+- Customizable countdown timer with hours, minutes, seconds configuration
+- Millisecond precision countdown display (HH:MM:SS.mmm)
+- Sound alerts on timer expiration with WAV playback
+- Visual alert dialogs on countdown completion
+- System tray notifications for timer events
+- Auto-stop session functionality when timer expires
+- Enhanced timer state management and validation
+
+#### Improved
+- Timer accuracy with microsecond-level calculations
+- Session pause/resume integration with countdown timer
+- Countdown display visibility management
+- Timer configuration validation and error handling
+
+#### Fixed
+- Timer expiration properly triggers session stop
+- Pause time correctly excluded from countdown calculations
+- Countdown display state properly managed during sessions
+
+---
+
+### 📖 Documentation
+
+- **README.md** - Complete feature documentation and usage guide
+- **INSTALL.md** - Detailed installation instructions for Linux, Windows, macOS
+- **CHANGELOG.md** - Full version history with all changes
+- **RELEASE_NOTES.md** - Detailed highlights for v1.2.0
+
+---
+
+### 🔄 Upgrading from v1.1.0
+
+This is a feature update with **no breaking changes**. Your existing session data is fully compatible.
+
+Simply extract the new version and run - all your previous sessions will work seamlessly.
+
+---
+
+### 🐧 Platform Support
+
+- ✅ **Linux** (Ubuntu, Debian, Arch, Fedora, etc.)
+- ✅ **Windows** (10/11)
+- ✅ **macOS** (10.14+)
+
+---
+
+### ⚠️ Known Limitations
+
+- Sound alerts require WAV format sound files (falls back to system beep)
+- Charts functionality requires optional PyQt6-Charts package
+- PDF reports use letter page size (US standard)
+- Maximum timer duration: 23h 59m 59s
+
+---
+
+### 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- 🐛 Report bugs or issues
+- 💡 Suggest new features
+- 🔧 Submit pull requests
+- 📝 Improve documentation
+
+---
+
+### 📜 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### 👤 Author
+
+**David Foucher**
+
+---
+
+### 🙏 Acknowledgments
+
+Built with:
+- [PyQt6](https://www.riverbankcomputing.com/software/pyqt/) - Cross-platform GUI framework
+- [ReportLab](https://www.reportlab.com/) - PDF generation library
+- [Qt Multimedia](https://doc.qt.io/qt-6/qtmultimedia-index.html) - Audio playback support
+
+---
+
+### 📥 Downloads
+
+Choose the appropriate archive for your platform:
+
+- **session-tracker-v1.2.0.zip** - Windows / Cross-platform
+- **session-tracker-v1.2.0.tar.gz** - Linux / Unix / macOS
+
+Both contain the complete application with all documentation.
+
+---
+
+### 🚀 Getting Started
+
+1. Download and extract the archive
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the application: `python session_tracker.py`
+4. Read `README.md` for detailed feature documentation
+5. Check `INSTALL.md` for platform-specific setup
+
+---
+
+**Download now and start tracking your sessions with precision!**
+
+---
+
+**Full Release Notes**: See [RELEASE_NOTES.md](release-v1.2.0/RELEASE_NOTES.md) for complete details.
+
+**Installation Guide**: See [INSTALL.md](release-v1.2.0/INSTALL.md) for platform-specific instructions.
+
+**Changelog**: See [CHANGELOG.md](release-v1.2.0/CHANGELOG.md) for full version history.
+
+---
+
+_Session Tracker v1.2.0 - Professional Session Tracking Made Simple_
